@@ -1,0 +1,48 @@
+*{
+    background-color: #1c2826;
+}
+
+p{
+    color: #FDFFFC;
+    font-family: Arial;
+}
+
+h1{
+    color: #FDFFFC;
+    font-family: 'Franklin Gothic Medium';
+}
+
+h2{
+    color: #FDFFFC;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.thewho{
+    color: #FDFFFC;
+    margin-bottom: 2px;
+} 
+
+.label1{
+    color: #FDFFFC;
+}
+
+.label2{
+    color: #FDFFFC;
+}
+
+.present{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.linker{
+    margin: 2px;
+}
+
+#skills{
+    text-align: center;
+}
+
+#touch{
+    text-align: center;
+}
