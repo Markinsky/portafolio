@@ -14,22 +14,22 @@
 
 
     <nav>
-        <a href="index.html"> <label > About me </label> </a>
-        <a href="#skills"> <label > Skills </label> </a>
-        <a href="#touch"> <label > Get in touch </label> </a>
-        <a href=""> <label > Projects </label> </a>
+        <a href="#skills" class="nav-label"> Habilidades </a>
+        <a href="#touch" class="nav-label"> Contactame </a>
+        <a href="index.html" class="nav-label"> Sobre mi  </a>
+        <a href="" class="nav-label"> Proyectos </a>
     </nav>
 </head>
-<body>
+<body class="back">
         <div class = "present">
             <div>
-            <label class = "label1"> Hello! my name is</label>
+            <label class = "label1"> ¡Hola! me llamo</label>
             <h1> Carlos Gerardo Salcedo García</h1>
-            <label class = "thewho"> Who am I?</label>
-            <p> I am a Java Fullstack developer, but my main area is <strong> Backend.</strong> </p>
-            <p> Always positive and searching for personal and profesional development. </p>
-            <p> Dedicated, young and high-motivated </p>
-            <img> 
+            <label class = "thewho"> ¿Quíen soy?</label>
+            <p> Soy un desarollador Java Fullstack, pero me especializo en el <strong> Backend.</strong> </p>
+            <p> Siempre positivo buscando seguir desarollandome personal y laboralmente. </p>
+            <p> Dedicado, jovén y persistente. </p>
+            <img>  
             </div>
             <div>
              <a href="https://www.linkedin.com/in/carlossalcedo1998/" target="_blank"> <img src="src/img/linkedin.png" class = "linker"></a> 
@@ -41,21 +41,61 @@
             <h2> Skills </h2>
             <img src="src/img/java.png"> 
             <img src="src/img/html.png"> 
+            <img src="src/img/css-3.png"> 
+            <img src="src/img/git.png"> 
+            <img src="src/img/postgre.png"> 
+            <img src="src/img/js.png"> 
         </section>
 
-        <section id="touch" name ="touch">
+        <div class = "container">
+            <h2> Más sobre mi: </h2> 
+            <h3> ¿Donde estudie? </h3>
+            <div class = "row justify-content-between" > 
+                <div class="card col-3" style="width: 30rem;">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Instituto tecnologico superior de Jalisco</h5>
+                      <p class="card-text cards">Complete la carrera y titulación en proceso.</p>
+                      <p class="card-text cards">Especialidad en bases de datos.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            <div class="card col-3" style="width: 30rem;">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Generation Bootcamp</h5>
+                  <p class="card-text cards">.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+           </div>
+        </div>
+        </div>
+
+        <div class ="container"> 
+            <div class = "row"> 
+            <section id="touch" name ="touch" class="touch col-6">
             <form action="post">
-                <label class = "label2"for ="name"> Name: </label>
-                <input type="text" name="name" id ="name"> 
+                <h2>Contactame</h2>
+                <label class = "label2" for ="name"> Nombre: </label>
+                <input type="text" name="name" id ="name" class="form-control" required> 
                 <br> 
                 <label class = "label2" for ="email"> Email:</label>
-                <input type="email" name = "email" id="email"> 
+                <input type="email" name = "email" id="email" class="form-control" required> 
                 <br> 
-                <label class = "label2" for ="message"> Message:</label>
-                <textarea name = "message" id = "message"> </textarea>
+                <label class = "label2" for ="message"> Mensaje:</label>
+                <textarea name = "message" id = "message" class="form-control" rows="7" required > </textarea>
                 <br> 
-                <input type = "button" value="Submit"> 
+                <input type = "button" value="Submit" class="button-touch"> 
             </form>
         </section>
+            </div>
+             <div class = "row"> 
+
+             </div>   
+        </div>
+       
 </body>
+<footer>
+
+</footer>
 </html>

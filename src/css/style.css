@@ -1,4 +1,5 @@
-*{
+/* Backgrounds */
+.back{
     background-color: #1c2826;
 }
 
@@ -7,6 +8,7 @@ p{
     font-family: Arial;
 }
 
+/* Word style */
 h1{
     color: #FDFFFC;
     font-family: 'Franklin Gothic Medium';
@@ -28,8 +30,29 @@ h2{
 
 .label2{
     color: #FDFFFC;
+    margin: 10px 10px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: large;
 }
 
+.nav-label{
+    color:  #FDFFFC;
+    font-family: 'Franklin Gothic Medium';
+    font-size: x-large;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.nav-label:hover{
+    color:  black;
+}
+
+.cards{
+    color: black;
+    
+}
+
+/* Sections */
 .present{
     text-align: center;
     margin-top: 20px;
@@ -41,8 +64,31 @@ h2{
 
 #skills{
     text-align: center;
+    margin-bottom: 4em;
+    margin-top: 4em;
 }
+
 
 #touch{
     text-align: center;
+    margin-top: 8em;
+    width: 500px;
+    margin-bottom: 4em;
+}
+
+nav{
+    margin-top: 20px;
+    margin-left: 45em;
+}
+/* Others*/
+.button-touch{
+    background-color: red;
+    color:white;
+    border-color: white;
+    width: 5em;
+    height: 2em;
+}
+
+.button-touch:hover{
+    background-color: pink;
 }
