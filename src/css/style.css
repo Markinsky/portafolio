@@ -35,7 +35,7 @@ h2{
     font-size: large;
 }
 
-.nav-label{
+.navi > a{
     color:  #FDFFFC;
     font-family: 'Franklin Gothic Medium';
     font-size: x-large;
@@ -68,6 +68,9 @@ h2{
     margin-top: 4em;
 }
 
+#skills > img{
+    margin: 2em;
+}
 
 #touch{
     text-align: center;
@@ -79,6 +82,10 @@ h2{
 nav{
     margin-top: 20px;
     margin-left: 45em;
+}
+
+.cardz{
+    width: 30rem;
 }
 /* Others*/
 .button-touch{
