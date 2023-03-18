@@ -48,9 +48,11 @@ h2{
 }
 
 .cards{
-    color: black;
-    
+    font-family: Arial;
+    color: #1c2826;
+    font-size: large;
 }
+
 
 /* Sections */
 .present{
@@ -70,6 +72,10 @@ h2{
 
 #skills > img{
     margin: 2em;
+}
+
+.contact > a{
+    margin: 1em;
 }
 
 #touch{
@@ -98,4 +104,6 @@ nav{
 
 .button-touch:hover{
     background-color: pink;
+    color:black;
+    border-color: black;
 }
