@@ -17,6 +17,13 @@ h1{
 h2{
     color: #FDFFFC;
     font-family: 'Franklin Gothic Medium';
+    font-size: large;
+}
+
+h3{
+    color: #FDFFFC;
+    font-family: 'Franklin Gothic Medium';
+    font-size: medium;
 }
 
 .thewho{
@@ -43,9 +50,10 @@ h2{
     margin-right: 10px;
 }
 
-.nav-label:hover{
+.navi > a :hover{
     color:  black;
 }
+
 
 .cards{
     font-family: Arial;
@@ -85,10 +93,6 @@ h2{
     margin-bottom: 4em;
 }
 
-nav{
-    margin-top: 20px;
-    margin-left: 45em;
-}
 
 .cardz{
     width: 30rem;
@@ -97,7 +101,7 @@ nav{
 .button-touch{
     background-color: red;
     color:white;
-    border-color: white;
+    border-color: red;
     width: 5em;
     height: 2em;
 }
