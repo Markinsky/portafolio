@@ -6,6 +6,8 @@
 p{
     color: #FDFFFC;
     font-family: Arial;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: large;
 }
 
 /* Word style */
@@ -26,9 +28,17 @@ h3{
     font-size: medium;
 }
 
+nav{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
 .thewho{
     color: #FDFFFC;
     margin-bottom: 2px;
+    font-weight: 500;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: large;
 } 
 
 .label1{
@@ -48,12 +58,13 @@ h3{
     font-size: x-large;
     text-decoration: none;
     margin-right: 10px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    text-align: center;
 }
 
-.navi > a :hover{
-    color:  black;
+.navi :hover{
+    color:  #546965;
 }
-
 
 .cards{
     font-family: Arial;
@@ -98,12 +109,31 @@ h3{
     width: 30rem;
 }
 /* Others*/
-.button-touch{
+
+.button-education{
+    border-radius: 20px;
+    padding: 10px 20px;
     background-color: red;
     color:white;
     border-color: red;
-    width: 5em;
-    height: 2em;
+    width: 7em;
+    height: 3em;
+    text-decoration: none;
+}
+
+.button-education:hover{
+    background-color: pink;
+    color:black;
+    border-color: black;
+}
+
+.button-touch{
+    border-radius: 20px;
+    background-color: red;
+    color:white;
+    border-color: red;
+    width: 7em;
+    height: 3em;
 }
 
 .button-touch:hover{
